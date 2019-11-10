@@ -1,0 +1,8 @@
+android_app {
+    name: "SoftKeyboard",
+    srcs: ["**/*.java"],
+    min_sdk_version: "19",
+    target_sdk_version: "29",
+    sdk_version: "current",
+    dex_preopt: { enabled: false, },
+}
